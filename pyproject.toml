@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "5g-log-analyzer"
+version = "0.1.0"
+description = "gNodeB protocol-level analysis (attach/RRC/setup events)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "gbvk312"}
+]
+keywords = ["telecom", "5g", "testing", "log-analysis", "gnodeb"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Telecommunications Industry",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = []
+
+[project.scripts]
+5g-log-analyzer = "analyzer:main"
+
+[tool.setuptools.py-modules]
+modules = ["analyzer"]

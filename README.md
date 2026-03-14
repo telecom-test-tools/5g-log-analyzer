@@ -43,16 +43,31 @@ Detailed Stats:
   Total Attach Rejects: 2
 ```
 
+## Installation
+
+```bash
+pip install .
+```
+
+## Usage
+
+Run the analyzer on a gNodeB log file:
+
+```bash
+5g-log-analyzer <path_to_log_file>
+```
+
 ## 🌐 Part of Telecom Test Toolkit
 
 This project is part of the **Telecom Test Toolkit ecosystem**.
 
 Other tools:
-
-- 5GTestScope
-- Test Monitor Dashboard
-- Regression Flakiness Analyzer
-- Test Report Generator
+- [telecom-test-toolkit](https://github.com/telecom-test-tools/telecom-test-toolkit) (Orchestrator)
+- [testwatch](https://github.com/telecom-test-tools/testwatch)
+- [5gtestscope](https://github.com/telecom-test-tools/5gtestscope)
+- [Regression-Flakiness-Scorer](https://github.com/telecom-test-tools/Regression-Flakiness-Heatmap-Scorer)
+- [test-report-gen](https://github.com/telecom-test-tools/test-report-gen)
+- [test-monitor-dashboard](https://github.com/telecom-test-tools/test-monitor-dashboard)
 
 🔗 Main project:
-https://github.com/gbvk312/telecom-test-toolkit
+https://github.com/telecom-test-tools/telecom-test-toolkit
